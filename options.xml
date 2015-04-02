@@ -1,0 +1,34 @@
+<select text="Weather">
+	<option text="Sunny" value="SU" toAdd="0">
+		<select text="Temperature">
+			<option text="Hot" value="H" toAdd="1">
+				<select text="Location">
+					<option text="Desert" value="1H" result="ENTER DESERT" toAdd="2"></option>
+					<option text="Beach" value="2H" result="ENTER BEACH" toAdd="2"></option>
+				</select>
+			</option>
+			<option text="Cold" value="C" toAdd="1"> 
+				<select text="Biome">
+					<option text="Tundra" value="1C" result="ENTER TUNDRA" toAdd="3"></option>
+					<option text="Arctic" value="2C" result="ENTER ARCTIC" toAdd="3"></option>
+				</select>
+			</option>
+		</select>
+	</option>
+	<option text="Cloudy" value="CL" toAdd="0">
+		<select text="Precipitation">
+			<option text="Snow" value="S" toAdd="4">
+				<select text="Type of Snow">
+					<option text="Blizzard" value="S1" result="ENTER BLIZZARD" toAdd="5"></option>
+					<option text="Slush" value="S2" result="ENTER SLUSH" toAdd="5"></option>
+				</select>
+			</option>
+			<option text="Rain" value="R" toAdd="4">
+				<select text="Type of Rain">
+					<option text="Hurricane" value="R1" result="ENTER HURRICANE" toAdd="6"></option>
+					<option text="Freezing Rain" value="R2" result="ENTER FREEZING RAIN" toAdd="6"></option>
+				</select>
+			</option>
+		</select>
+	</option>
+</select>
