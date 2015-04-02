@@ -5,3 +5,5 @@ This program reads in a selection of options from an XML file.  Once the selecti
 The site redirects the user to the Chrome homepage if it detects that the user is using Internet Explorer.  Internet Explorer did not seem to display this site properly in all regards, therefore I don’t support it.  It works fine in Firefox/Chrome/Safari.
 
 A live version is hosted at http://kelvin.ist.rit.edu/~axs2931/340/project1/
+
+NOTE: Form won’t actually do untying, as it is not hooked up to a server.
